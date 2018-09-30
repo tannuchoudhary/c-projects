@@ -4,11 +4,11 @@
 #include<string.h>
 int main()
 {
-    char s[100];
+    char string[100];
     int y;
     printf("Enter a string:\n");
-    gets(s);
-    y=strcat(s,"tannu");
+    gets(string);
+    y=strcat(string,"tannu");
     printf("%s",y);
     return 0;
 
