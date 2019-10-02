@@ -1,12 +1,11 @@
 #include<stdio.h>
-int main()
+void main()
 {
-    int t;
-    printf("enter the time in seconds: ");
-    scanf("%d",&t);
+    int time;
+    printf("Enter Your time in seconds: ");
+    scanf("%d", &time);
 
-    printf("\n%d seconds is equal to %d minute",t,t/60); //to convert seconds into minute.
-    printf("\n%d seconds is equal to %d hour",t,t/360);    //to convert seconds into hour.
-
-    return 0;
+    printf("\n%d seconds is equal to %d minute", time, time/60); //to convert seconds into minute.
+    printf("\n%d seconds is equal to %d hour", time, time/360);    //to convert seconds into hour.
+    
 }
